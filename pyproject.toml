@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "chat-gpt-rpg"
+version = "0.1.0"
+description = ""
+authors = ["Irina <irinaluniov@gmail.com>"]
+readme = "README.md"
+packages = [{include = "chat_gpt_rpg"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^2.3.2"
+black = "^23.3.0"
+dynaconf = "^3.1.12"
+openai = "^0.27.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
