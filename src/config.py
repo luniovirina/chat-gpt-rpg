@@ -5,7 +5,7 @@ current_directory = os.path.dirname(os.path.realpath(__file__))
 settings = Dynaconf(
     root_path=current_directory,
     envvar_prefix="DYNACONF",
-    settings_files=["config/settings.toml", "config/.secrets.toml"],
+    settings_files=["settings.toml", ".secrets.toml"],
     envaronments=True,
 )
 

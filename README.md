@@ -37,7 +37,7 @@ filepath: `src/config/secrets.toml`
 file content:
 ``` toml
 OPENAI_API_KEY="REPLACE_WITH_YOUR_OPENAI_API_KEY"
-organization = "REPLACE_WITH_YOUR_PRIGANIZATION_ID"
+organization = "REPLACE_WITH_YOUR_ORGANIZATION_ID"
 ```
 
 4. Run the Flask project by running the following command in the Terminal:
